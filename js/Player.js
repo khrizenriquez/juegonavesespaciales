@@ -8,7 +8,8 @@ var Player = function () {
 	//		
 	var left, right, up, down, firing, recovering;
 	//		
-	var BufferedImage imageUp, image, imageUpTrans;
+	var imageUp, image, imageUpTrans;
+	var player = new Spaceship();
 };
 /*
 public void update () {
