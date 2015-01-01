@@ -9,6 +9,7 @@ var Spaceship = {
 	firingTimer: 0,
 	firingDelay: 200,
 	power: 0,
+	requiredPower: [1, 2, 3, 4, 5, 6, 7, 8],
 	//		Puntaje y vidas
 	lives: 3,
 	score: 0,
@@ -23,11 +24,9 @@ var Spaceship = {
 	recovering: false,
 	recoveryTimer: 0,
 	isDead: 0,
+	//		Imágen de la nave
+	imagePlayer: {
+		image: './img/hero/hero-up.png',
+		imageTrans: './img/hero/hero-up-transp.png'
+	}
 };
-
-/*
-if (imageUp == null) imageUp = new Generals().loadImg("/img/hero/hero-up.png");
-if (imageUpTrans == null) imageUpTrans = new Generals().loadImg("/img/hero/hero-up-transp.png");
-image = imageUp;
-}
-*/
