@@ -1,0 +1,14 @@
+/*		Selectores por generales*/
+/*		Selectores por id*/
+#lienzo {
+  height: 600px;
+  width: 800px;
+}
+/*		Selectores por clase*/
+/*		Media queries*/
+@media only screen and (max-width: 600px) {
+  #lienzo {
+    height: 100%;
+    width: 100%;
+  }
+}
