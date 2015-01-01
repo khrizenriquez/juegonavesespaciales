@@ -12,7 +12,7 @@
 			};
 			function loadMedia () {
 				fondo = new Image();
-				fondo.src = "img/fondos/050303.jpg";
+				fondo.src = GeneralValues.stages.background1;
 				fondo.onload = function () {
 					var intervalo = setInterval(frameLoop, 1000/55);
 				}
